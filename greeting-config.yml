@@ -1,7 +1,4 @@
   security:
      user:
           name: rakacha
-          
-  security:
-     user:
-        password: password
+            password: password
