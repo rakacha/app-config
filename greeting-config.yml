@@ -1,9 +1,7 @@
-spring:
   security:
      user:
           name: rakacha
           
-spring:
   security:
      user:
         password: password
