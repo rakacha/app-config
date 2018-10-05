@@ -1,7 +1,7 @@
 logging:
     level:
         io:
-            pivotal: ERROR
+            pivotal: INFO
 security:
      basic:
       enabled: false
