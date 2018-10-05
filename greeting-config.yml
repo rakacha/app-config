@@ -5,3 +5,9 @@ logging:
 security:
      basic:
       enabled: false
+management:
+    security:
+        enabled: false
+greeting:
+    displayFortune: false
+quoteServiceURL: https://quote-service-dev.cfapps.io/quote
