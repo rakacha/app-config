@@ -10,4 +10,4 @@ management:
         enabled: false
 greeting:
     displayFortune: true
-quoteServiceURL: https://quote-service-dev.cfapps.io/quote
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
