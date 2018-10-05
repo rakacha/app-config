@@ -9,5 +9,5 @@ management:
     security:
         enabled: false
 greeting:
-    displayFortune: false
+    displayFortune: true
 quoteServiceURL: https://quote-service-dev.cfapps.io/quote
