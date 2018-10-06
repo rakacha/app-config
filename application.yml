@@ -8,3 +8,5 @@ security:
 management:
     security:
         enabled: false
+ribbon:
+    IsSecure: false
