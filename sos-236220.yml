@@ -17,4 +17,4 @@ customer:
 
 item:
   service:
-    url: http://localhost:8081/items/
+    name: item-236220
