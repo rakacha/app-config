@@ -1,12 +1,10 @@
 logging:
     level:
-        io:
-            pivotal: DEBUG
-security:
-     basic:
-      enabled: false
-management:
-    security:
-        enabled: false
-ribbon:
-    IsSecure: false
+        com:
+            abcshopping: DEBUG
+spring:
+    jpa:
+        show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
