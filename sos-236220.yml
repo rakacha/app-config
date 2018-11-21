@@ -2,9 +2,19 @@ logging:
     level:
         io:
             pivotal: DEBUG
-security:
-     basic:
-      enabled: false
-management:
-    security:
-        enabled: false
+spring:
+    jpa:
+        show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+
+server:
+  port: 8082
+
+customer:
+  queue: spring-boot-customer-236220  
+
+item:
+  service:
+    url: http://localhost:8082/items/
