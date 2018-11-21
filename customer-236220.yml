@@ -1,16 +1,9 @@
 logging:
     level:
-        io:
-            pivotal: DEBUG
+        com:
+            abcshopping: DEBUG
 customer:
   queue: spring-boot-customer-236220
  
-spring:
-    jpa:
-        show-sql: true
-    hibernate:
-      ddl-auto: create-drop
-      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
-      
 server:
   port: 8080
