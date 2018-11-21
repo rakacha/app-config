@@ -11,4 +11,4 @@ spring:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
 server:
-  port: 8081
+  port: 8083
