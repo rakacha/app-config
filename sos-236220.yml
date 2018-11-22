@@ -11,5 +11,6 @@ customer:
 item:
   service:
     name: item-236220
- ribbon:
+
+ribbon:
     IsSecure: false
