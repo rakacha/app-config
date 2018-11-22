@@ -13,4 +13,4 @@ item:
     name: item-236220
 
 ribbon:
-   IsSecure: false
+  IsSecure: false
