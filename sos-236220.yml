@@ -2,8 +2,8 @@ logging:
     level:
         io:
             pivotal: DEBUG
-server:
-  port: 8082
+#server:
+  #port: 8082
 
 customer:
   queue: spring-boot-customer-236220  
