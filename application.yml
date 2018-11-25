@@ -5,6 +5,7 @@ logging:
 spring:
     jpa:
         show-sql: true
+        generate-ddl: true
     hibernate:
       ddl-auto: create-drop
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
