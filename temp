@@ -1,0 +1,22 @@
+{
+  "email": "a1@b1.com",
+  "firstname": "a1",
+  "lastname": "b1"
+}
+
+
+{
+  "customerId": "8a8a8a826730c657016730d5fea90000",
+  "orderDate": "2018-11-24",
+  "orderDesc": "First Order",
+  "salesOrderitems": [
+    {
+      "name": "Item1",
+      "itemQuantity": "2"
+    },
+    {
+      "name": "Item2",
+      "itemQuantity": "3"
+    }
+  ]
+}
