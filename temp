@@ -4,6 +4,12 @@
   "lastname": "b1"
 }
 
+{
+	"count": 1,
+	"git": {
+		"uri": "https://github.com/rakacha/app-config.git"
+	}
+}
 
 {
   "customerId": "8a8a8a826730c657016730d5fea90000",
