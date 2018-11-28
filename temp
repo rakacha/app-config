@@ -26,3 +26,7 @@
     }
   ]
 }
+
+
+eureka.client.serviceUrl.defaultZone ${EUREKA_URI:https://eureka-server-140837.cfapps.io/eureka}
+spring.cloud.config.uri https://config-service-236220.cfapps.io
