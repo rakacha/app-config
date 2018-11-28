@@ -14,5 +14,8 @@ spring:
         initialization-mode: always
         url: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_c3a2fa2e454b055?user=b8b2d9e00af37f&password=dfe3f567
         driver: com.mysql.jdbc.Driver
+    cloud:
+        config:
+            uri: https://config-server-236220.cfapps.io/
         
         
