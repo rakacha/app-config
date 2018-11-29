@@ -4,7 +4,7 @@ logging:
             pivotal: DEBUG
 
 customer:
-  queue: spring-boot-customer-236220  
+  queue: spring-boot-customer 
 
 item:
   service:
