@@ -12,7 +12,7 @@ spring:
       dialect: org.hibernate.dialect.MySQL55Dialect
     datasource:
         initialization-mode: always
-        url: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_c3a2fa2e454b055?user=b8b2d9e00af37f&password=dfe3f567
+        url: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_a3d2e1b1b1e2220?user=b3a251b1221761&password=c90ab886
         driver: com.mysql.jdbc.Driver
     
         
