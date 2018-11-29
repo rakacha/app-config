@@ -9,8 +9,8 @@ management:
             exposure:
                 include: "*"
                
-# server:
- # port: 8081
+server:
+ port: ${PORT:0}
  
 eureka:  
   instance:
