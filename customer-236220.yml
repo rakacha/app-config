@@ -3,7 +3,7 @@ logging:
         com:
             abcshopping: DEBUG
 customer:
-  queue: spring-boot-customer
+  queue: spring-boot-customer-236220
  
 server:
  port: 8080
