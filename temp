@@ -30,3 +30,30 @@
 
 eureka.client.serviceUrl.defaultZone ${EUREKA_URI:https://eureka-server-140837.cfapps.io/eureka}
 spring.cloud.config.uri https://config-service-236220.cfapps.io
+
+
+cd C:\Users\Administrator\git\repository\shoppingcart\SalesOrderService;
+cf push SalesOrderService-236220 -p target/SalesOrderService-0.0.1-SNAPSHOT.jar -m 1024M --no-start;
+cf bind-service SalesOrderService-236220 amqp;
+cf bind-service SalesOrderService-236220 eureka;
+cf bind-service SalesOrderService-236220 mysqlService;
+cf set-env SalesOrderService-236220 eureka.client.serviceUrl.defaultZone ${EUREKA_URI:https://eureka-server-140837.cfapps.io/eureka}
+cf set-env SalesOrderService-236220 spring.cloud.config.uri https://config-service-236220.cfapps.io
+
+
+cd C:\Users\Administrator\git\repository\shoppingcart\item
+cf push item-236220 -p target/item-0.0.1-SNAPSHOT.jar -m 1024M --no-start;
+cf bind-service item-236220 amqp;
+cf bind-service item-236220 eureka;
+cf bind-service item-236220 mysqlService;
+cf set-env item-236220 eureka.client.serviceUrl.defaultZone ${EUREKA_URI:https://eureka-server-140837.cfapps.io/eureka}
+cf set-env item-236220 spring.cloud.config.uri https://config-service-236220.cfapps.io
+
+
+cd C:\Users\Administrator\git\repository\shoppingcart\Customer
+cf push Customer-236220 -p target/Customer-0.0.1-SNAPSHOT.jar -m 1024M --no-start;
+cf bind-service Customer-236220 amqp;
+cf bind-service Customer-236220 eureka;
+cf bind-service Customer-236220 mysqlService;
+cf set-env Customer-236220 eureka.client.serviceUrl.defaultZone ${EUREKA_URI:https://eureka-server-140837.cfapps.io/eureka}
+cf set-env Customer-236220 spring.cloud.config.uri https://config-service-236220.cfapps.io
