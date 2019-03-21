@@ -3,9 +3,9 @@ logging:
         com:
             abcshopping: DEBUG
 spring:
-	sleuth:
-		sampler:
-			probability: 1.0	
+    sleuth:
+	sampler:
+	     probability: 1.0	
     jpa:
         show-sql: true
         generate-ddl: true
