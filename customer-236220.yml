@@ -5,5 +5,5 @@ logging:
 customer:
   queue: spring-boot-customer-236220
  
-#server:
- #port: 8083
+server:
+ port: 8083
